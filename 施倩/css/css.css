@@ -1,0 +1,210 @@
+﻿*{margin: 0;padding: 0;border: 0;}
+body,div,nav,ul,li,head,a,p{font:12px/24px"微软雅黑";color:#636363;}
+ul li,li{list-style: none;}
+a{text-decoration: none;}
+body{background: #F0F0F0}
+/*-------header---------*/
+
+.header{height: 138px;background:url(../img/header-bg.jpg)center top}
+.top{width:1003px;height:93px;margin:0 auto;}
+.top .top-L{height:93px;float: left;}
+.top-R{float: right;height:73px;padding-top: 18px; }
+.top-R a{color:#999899;margin-left:8px;}
+.top-R a:hover{color: #FFFFFF;}
+span form{margin-top:8px;width:192px;height:23px;float: right;}
+.seach{width:153px;height:23px;background: url(../img/Search-left.gif);color:#FFFFFF;padding-left: 8px;float: left;}
+.seachL{background: url(../img/Search-but.gif);float:right;height:23px;width:31px;}
+.top h1{display:none;}
+/*--------------nav--------------*/
+nav{width: 1003px;height:37px;margin: 0 auto;}
+nav ul li{float: left;text-align: center;}
+nav ul li a{color: #FFFFFF;display: block;height:37px;line-height:37px;width:125px;font-family: "宋体";}
+nav ul li a:hover{font-weight: bold; background:#273A54;display: block;}
+/*------------flash-----------*/
+.content:after{content: "";clear: both;display: block;}
+.content{height:408px;width: 100%;padding: 0;margin-top: -7px;position: relative}
+.content ul{width: 100%;}
+.content ul li{height:408px;width: 100%}
+.flash1{background: url(../img/1383295630.jpg)center center;}
+.flash2{background: url(../img/1383295883.jpg)center center;}
+.flash3{background: url(../img/1383296686.jpg)center center;}
+.flash4{background: url(../img/1383297260.jpg)center center;}
+.content span{position:absolute;z-index: 2;margin-top: 150px;}
+.content .zuo{margin-left:5%;z-index: 10;background:url(../img/left_on.gif);}
+.content .you{margin-left:90%;background:url(../img/right_on.gif);cursor: pointer;}
+.content img:hover{opacity: 0;}
+/*------------内容-------------*/
+.content2{width:970px; margin: 0 auto;height:auto;margin-top: 14px;font-family: '宋体';overflow: hidden}
+.content2 p{border-bottom: 1px solid rgba(167, 167, 167, 0.35);padding-bottom:2px;margin-bottom:4px;}
+.content2 p span{font-size: 14px;color:#235987;font-weight: bold}
+.new{width:361px;height:206px;float: left;margin-right: 20px;}
+.new ul li{height:32px;line-height: 31px;border-bottom: 1px dashed #c2c2c2;text-indent:12px;position: relative;}
+.new ul li:before{content: "";width:0px; height:0px;border:3px solid transparent;border-left-color:#61B1F6;position: absolute;z-index:1;margin:11px 0 0 -10px;}
+.new ul li span{float: right;color: #9d9d9d}
+.new ul li a:hover{text-decoration: underline;}
+.about{width: 305px;height:198px;float: left}
+.about .abT{margin:10px 10px 0 0;line-height:26px}
+.shehui{width: 257px;height:158px;float:right;}
+.shehui2{width:134px;float: right;text-indent: 20px;letter-spacing:1px;position: relative}
+.shehui2:before{content: "";background: url("../img/about.gif");position: absolute;width: 123px;height:136px;margin-left: -150px;}
+
+.content3{width:970px; margin: 0 auto;height:auto;margin-top: 14px;}
+.ct{height:168px;}
+.wenhua{width: 680px;height:168px;background: #E8E8E8;float: left}
+p.wh {padding-bottom:2px;margin-bottom:4px;height:34px;background:#DCDCDC;line-height:34px;text-indent:15px;}
+p.wh  span{font-size: 14px;color:#235987;font-weight: bold}
+.jngshen{width: 280px;height:100px; border: 1px solid transparent;border-right-color: #d3d3d3;margin-top:8px;float: left}
+.wenhua span{float: left;margin-left:25px;}
+.wenhua span p.p1{font-size: 14px;font-weight: bold;color: #162434;margin-bottom: 5px;}
+.linian{float: right;margin-top:8px;}
+.linian p{margin-bottom:-5px;}
+.xiazai{float: right;width: 257px;}
+.xiazai p{border-bottom: 1px solid rgba(167, 167, 167, 0.35);padding-bottom:2px;margin-bottom:4px;}
+.xiazai span{font-size: 14px;color:#235987;font-weight: bold}
+.xiazai ul li{height:27px;line-height:27px;border-bottom: 1px dashed #c2c2c2;text-indent:25px;position: relative;}
+.xiazai ul li a:hover{text-decoration: underline}
+.xiazai ul li:before{content: "";width:4px; height:4px;background:#235987 ;position: absolute;z-index:1;margin:15px 0 0 -20px;}
+.renli{height: 90px;overflow: hidden;margin: 25px 0 10px;}
+.renli ul li{float: left;width:150px;height:80px;margin-right:120px;}
+.renli4{margin-right:0px !important;}
+/*----------底部----------*/
+.bottom{height:145px;background:#dddddd;}
+.bottom .logo{width:970px;margin: 0 auto}
+p.b1{background: url("../img/brand.jpg")center bottom no-repeat;height:50px;border-bottom:1px dashed #aeaeae}
+.logo ul{margin-top: 18px;height:60px}
+.logo ul li{float: left;height:70px;line-height: 90px;margin-right:23px;}
+.bli2{height:60px;padding-top:8px;}
+.bli3{margin-top: -12px}
+.bli4{margin-right:-2px;}
+/*-------------------------------走进江友页------------------------------------------*/
+.zoujing{height: auto; margin-top: -8px;border-top: 1px solid transparent;background: url("../img/box-bg.jpg")center top no-repeat}
+.zj{width:997px;margin: 0 auto;margin-top: 30px;overflow: hidden}
+.zjL{width:206px;height:auto;background: #4474A2;border-radius:5px;float: left;padding-bottom: 10px}
+.zjL p{color:#FFFFFF;text-indent:15px;font-size: 18px;padding-top: 10px;}
+.zjL ul{width: 185px;height:auto;margin: 0 auto;background: #FFFFFF;margin-top: 10px;text-indent: 30px;padding-top: 8px;padding-bottom:20px;}
+.zjL ul li{height:38px;border-bottom: 1px solid gainsboro;width: 150px;margin: 0 auto;line-height:50px;}
+.zjL ul li a{font-size: 14px;}
+.zjL ul li a:hover{color: #162434}
+.zjR{width: 764px;float: right;padding-top: 3px;margin-bottom:80px}
+.zjR .zj1{height:38px;font-size: 16px;color: #162434;font-family: '宋体';font-weight: bold;border-bottom: 1px solid rgba(176, 176, 176, 0.25);line-height:40px;margin-bottom:8px;}
+.zjR .zj1 span {color: #d1d1d1;float: right}
+.zjR .zj1 span a{color: #878787;font-size:13px;}
+.zjR .zj1 span a:hover{text-decoration: underline}
+.zjR p{font-family: Verdana;color: #666;line-height: 34px;font-size: 12px;margin-right: 5px;}
+.im{height:424px;text-align: center;margin-top: 13px}
+.im img{width:565px;height:424px;}
+/*-----------企业动态-----------------------------------------------*/
+.news{height:400px;margin-top:0px;}
+.news ul li{height:40px;line-height: 40px;border-bottom: 1px dashed #c2c2c2;background: url("../img/diandian.jpg")left center no-repeat;text-indent:18px;font-size: 14px;}
+.news ul li .xinwen{color: #7d7f36;padding-right:6px;}
+.news ul li a{font-size: 13px;}
+.news ul li a:hover{color: black;text-decoration: underline}
+.news ul li .time{float: right;margin-right:10px;font-size: 12px;}
+/*fenye*/
+.pagg{float: right;margin-top: 100px;margin-bottom: 20px;height:40px;overflow:hidden}
+.pagg p{display:block;float:left;margin-right:6px; border:1px solid red}
+.page ul li.pagenum{border: 1px solid gainsboro}
+.page ul li.pagenum a{display: block;padding:0 7px;}
+.page ul li.pagenum a:hover{color: #FFFFFF;background: black;}
+/*-------------三级页面企业动态--------------*/
+
+ p.dongTitle{font-size: 16px;color: black;font-weight: bold;text-align: center}
+ p.tims{text-align: center}
+ p.print{text-align: right;margin-bottom: 20px;border-bottom: 1px solid gainsboro}
+ p.text{font-size: 13px;color: black;font-family: '微软雅黑'}
+ .ims img{width: 752px;height:564px;margin-top:8px;}
+.off{width:108px;height:36px;background: #9d9d9d;text-align: center;color: #FFFFFF;line-height: 36px;margin:20px 0 20px 45%}
+.off a{color:#ffffff;display:block;font-size:14px;line-height:35px}
+.off a:hover{background: #3f3f3f;color:#ffffff}
+/**/
+.chanpin{width:206px;height:387px;background: #4474A2;border-radius:5px;float: left}
+.chanpin p{color:#FFFFFF;text-indent:15px;font-size: 18px;padding-top: 10px;}
+.chanpin ul{width: 185px;height:299px;margin: 0 auto;background: #FFFFFF;margin-top: 10px;padding-top: 8px}
+.chanpin ul li{width: 150px;margin: 0 auto;}
+/*.chanpin ul li a{font-size: 14px;}*/
+.chanpin ul li a:hover{color: #162434}
+.zonghui{height:38px;border-bottom: 1px solid gainsboro;line-height:50px;background: url("../img/jiahao.jpg")5% 70% no-repeat;text-indent:25px;}
+.zonghui a{font-size: 14px;color: #245fb3;font-weight: bold}
+.dian{font-size:12px;text-indent:30px;background: url("../img/tubiao.jpg")10% 70%no-repeat;height:33px;line-height:40px;border-bottom: 1px dashed #747474}
+.chatou ul li{float: left;margin: 5px 27px 40px;border: 2px solid transparent;height:140px;width: 132px;}
+.chatou ul li img:hover{border: 2px solid rgba(36, 95, 179, 0.7)}
+.chatou ul li img{height: 129px;width:129px;border: 2px solid #FFFFFF;box-shadow:0px 0px 10px rgba(135, 135, 135, 0.81);}
+.chatou ul li p a{color: #245fb3;font-weight: bold;margin-left: 10%}
+.chatou ul li p a:hover{text-decoration: underline}
+
+/*------------------------人力资源-----------------------------*/
+.p1{color: #666666;font-weight:bolder;text-indent: 0 !important;}
+.zjR .p2{margin: 30px 0;}
+.zjR .p3{margin: 10px 0;}
+/*------------------------联系我们----------------------*/
+.women{width:760px;margin: 0 auto;}
+.women .lianx{font-size: 16px;font-weight: bolder;margin-top: 10px}
+.lianxi{background:#FFFFFF;padding: 20px 0 20px;margin-top: 10px;margin-bottom:40px;border: 1px solid #ababab}
+.lianxi p{text-indent: 20px;color: #3f3f3f;margin-bottom:15px}
+/*---------------------毛遂自荐------------------------------*/
+.maosui{width: 724px;margin: 0 auto;margin-top: 20px;border: 1px solid #bababa;background: #FFFFFF;font-family: '宋体';}
+.mp1{background:#c3dbf3;height:10px;width: 100%}
+.maosui ul{margin-bottom: 20px;}
+.maosui ul li {width:100%; height: 37px;margin-bottom:2px;line-height: 37px;color: black}
+.maosui ul li span{background: #f6f6f6;width: 137px;height:37px;display: block;text-align: right;float: left;margin-right:5px;}
+/*li input{margin-left: 137px;}*/
+li input[type='text'],select,textarea{border: 1px solid #b8b8b8;}
+li input[type='text'],select{height: 25px;}
+li input[type='radio']{margin-right:5px;}
+li input[type='text'],textarea{width:239px;}
+ul li b{color: red;margin-left: 5px;}
+.sub{text-align: center;height:50px;line-height: 50px;word-spacing: 2px;}
+.sub input{width: 54px;height:20px;background: #117992;color: #FFFFFF}
+.sub input:hover{cursor:pointer}
+/*---------------------------------产品详情页-----------------------*/
+.product{margin: 30px auto}
+.title{color: #245fb3;text-align: center; font-size: 16px;font-family: Arial, Helvetica, sans-serif;font-weight: bold}
+.produ1{margin: 0 auto;width:300px;height:300px;padding:6px;background: #FFFFFF;box-shadow:0px 0px 10px rgba(135, 135, 135, 0.81);margin-top: 10px;}
+.aa{text-align: center;margin:20px auto;}
+.newbutton{height: 36px;margin-top: 40px;margin-bottom: 40px;}
+.butaniu{width: 108px;height: 36px;background: #999;line-height: 36px;display: block;font-size: 14px;color: #fff;margin: auto;text-align: center;cursor: pointer}
+a.butaniu:hover{background: #1d4285}
+
+/* ----------------招聘信息页------------- */
+.work{margin:0 auto;text-align:center;background:#ffffff;margin-top:25px}
+.work th{background:#c3dbf3;}
+.work th,.work td{font:12px/14px '宋体';color:#333;height:35px;border:0px}
+.work tr:nth-child(odd){background-color:#F9F8F7}
+.work tr td a{color:rgb(181, 0, 0);font-weight:bold;}
+/* ----------------招聘信息详细页------------- */
+.workd{margin:0 auto;margin-top:25px;background-color: rgb(250, 250, 250);}
+.workd th{background:#c3dbf3;text-align:center;}
+.workd th,.workd td{font:12px/14px '宋体';color:#333;height:35px;border:0px;}
+.workd td{text-indent:40px}
+.yinpin{margin:0 auto;text-indent:0;width: 100px;height: 30px;background: #999;line-height: 30px;display: block;font-size: 14px;font-family:'宋体';color: #fff;text-align:center;margin-top:10px;margin-bottom:30px}
+.yinpin:hover{background:#333c88;	}
+/* ----------------客服------------- */
+.table1{margin:0 auto;}
+.table1 input{border:1px solid #CCCCCC;height:22px;}
+.table1 texarea{border:0px;border:1px solid #CCCCCC;width:300px !important}
+.table1 td{height:35px;border:0}
+.table1 tr td b{color:red}
+.kehu{height:35px;line-height:35px;background:#F8F8F8}
+.kehu span{display:block;float:left;}
+.kehu .kehu1{margin-left:20px}
+.kehu .kehu2{float:right;margin-right:20px}
+.kehu .kehu2 b{color:red}
+/* ----------搜索页------------- */
+.seac{margin:0 auto;margin-top:40px;width:760px;}
+.seac .pseac{line-height: 38px;font-size: 16px;text-indent: 6px;}
+.seac1{background: #fafafa;border: 1px solid #e1e1e1;padding:30px 0 25px;margin-bottom: 40px;}
+.seac2{width: 90%;margin:0 auto;}
+.seachview{height:35px;text-align:center;background: url("../img/searchviewbg.gif")center center no-repeat;}
+.seachview form{width:541px;margin:0 auto;padding-top:1px}
+form .seachv{height:32px;width:433px;float:left;background: url("../img/searchviewbg.gif")left center no-repeat;padding-left:15px}
+form .seachvR{height:32px;width:93px;font-size:14px;color:#ffffff;margin-right:-1px;background: url("../img/searchviewbg.gif") right center no-repeat;cursor: pointer;}
+.seachjg{text-align:center;margin-bottom:15px;margin-top:3px}
+.seachjg span{color:#db0000;}
+p.xianxian{height:3px;background: url("../img/xianxian.jpg")center center repeat-x;margin-bottom:10px;}
+.seac2 ul li{color:#999;}
+.seac2 ul li span.xinwen{color: #7d7f36;font-size:14px;font-family:'宋体'}
+.seac2 ul li a{font-size:14px}
+.seac2 ul li a:hover{text-decoration: underline;}
+.seac2 ul li p.seachxin{color:#999;margin-top:1px;font-family:'宋体';width:95%;margin-bottom:8px}
+.seachpage{height:27px;margin:22px 0 10px;text-align:right}
+

@@ -1,0 +1,14 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+	  Options +FollowSymlinks
+	  RewriteEngine On
+	  RewriteCond %{REQUEST_FILENAME} !-d
+	  RewriteCond %{REQUEST_FILENAME} !-f
+	  RewriteRule (.*)\.html$ $1.php [QSA,PT,L]
+
+	   #user.html?id=600   user.php?id=600 相当于11行
+	  RewriteRule (.*)\.html?id=(\\d{1,})$ $1.php?id=$2[QSA,PT,L]  
+	  RewriteRule (.*)\.action$ $1.php [QSA,PT,L] 
+	  #12行是PHP后缀可以改为Java的形式
+</IfModule>

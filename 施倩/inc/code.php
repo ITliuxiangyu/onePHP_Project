@@ -1,0 +1,54 @@
+<?php
+session_start();
+function code($num,$h){
+require 'color.php';
+$w=$num*25;
+$bg=imagecreatetruecolor($w,$h);
+imagesavealpha($bg,true);
+imagefill($bg,0,0,c($bg,'white',90));
+$font=['fz1.ttf','fz2.ttf','a.ttf','b.ttf','c.ttf','d.ttf'];
+$f=$font[mt_rand(0,count($font)-1)];
+$words='abcdefgh123ijklmnopqrstABCD4567EFGHIJKLuvwxyzMNOPQRSTUVWXYZ890';
+$ss='';
+for($i=0;$i<$num;$i++){
+	$size=mt_rand(20,30);
+	$angl=mt_rand(-20,20);
+    $x=5+$i*20;
+	$y=mt_rand(23,$h-8);
+	$str=substr($words,mt_rand(0,strlen($words)-1),1);
+	$ss.=$str;
+	imagettftext($bg,$size,$angl,$x,$y,c($bg,'rand',10),$f,$str);
+}
+$_SESSION['ck']=$ss;
+for($j=0;$j<2;$j++){
+	$x=mt_rand(0,$w);
+	$y=mt_rand(0,$h);
+	$we=mt_rand(0,20);
+	$he=mt_rand(0,20);
+	imagefilledellipse($bg,$x,$y,$we,$he,c($bg,'rand',110));
+}
+for($z=0;$z<3;$z++){
+    $x=mt_rand(0,$w);
+	$y=mt_rand(0,$h);
+	$x2=mt_rand(0,$w);
+	$y2=mt_rand(0,$h);
+	imagesetthickness($bg,mt_rand(2,6));
+	imageline($bg,$x,$y,$x2,$y2,c($bg,'rand',110));
+}
+for($n=0;$n<3;$n++){
+    $x=mt_rand(0,$w);
+	$y=mt_rand(0,$h);
+	$w1=mt_rand(0,50);
+	$h1=mt_rand(0,5);
+	$star=mt_rand(-360,360);
+	$end=mt_rand(-360,360);
+	$style=IMG_ARC_CHORD;
+	imagefilledarc($bg,$x,$y,$w1,$h1,$star,$end,c($bg,'rand',100),$style);
+}
+
+
+header('content-type:image/png');
+imagepng($bg);
+imagestroy($bg);
+}
+code(4,45);
